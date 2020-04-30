@@ -36,16 +36,16 @@ Annotated datasets, including **raw images** and **processed profiles**, for ima
 
 ### Chemical Perturbations
 
-- [Gustafsdottir et al. 2013](https://doi.org/10.1371/journal.pone.0080999) - Cell painting profiles from 1,600 bioactive compounds in U2OS cells (Access from public S3 bucket: `s3://cytodata/datasets/Bioactives-BBBC022-Gustafsdottir/profiles/Bioactives-BBBC022-Gustafsdottir/`).
-- [Wawer et al. 2014](https://doi.org/10.1073/pnas.1410933111) - Cell painting profiles from 31,770 compounds in U2OS cells ([Click to download](http://www.broadinstitute.org/mlpcn/data/Broad.PNAS2014.ProfilingData.zip)).
-- [Bray et al. 2017](https://doi.org/10.1093/gigascience/giw014) - Cell painting profiles from 30,6116 compounds in U2OS cells (Center Driven Research Project _CDRP_) ([Download from GigaDB](https://doi.org/10.5524/100351) | Access from public S3 bucket: `s3://cytodata/datasets/CDRPBIO-BBBC036-Bray/profiles_cp/CDRPBIO-BBBC036-Bray/`).
+- [Gustafsdottir et al. 2013](https://doi.org/10.1371/journal.pone.0080999) - Cell Painting profiles from 1,600 bioactive compounds in U2OS cells (Access from public S3 bucket: `s3://cytodata/datasets/Bioactives-BBBC022-Gustafsdottir/profiles/Bioactives-BBBC022-Gustafsdottir/`).
+- [Wawer et al. 2014](https://doi.org/10.1073/pnas.1410933111) - Cell Painting profiles from 31,770 compounds in U2OS cells ([Click to download](http://www.broadinstitute.org/mlpcn/data/Broad.PNAS2014.ProfilingData.zip)).
+- [Bray et al. 2017](https://doi.org/10.1093/gigascience/giw014) - Cell Painting profiles from 30,6116 compounds in U2OS cells (Center Driven Research Project _CDRP_) ([Download from GigaDB](https://doi.org/10.5524/100351) | Access from public S3 bucket: `s3://cytodata/datasets/CDRPBIO-BBBC036-Bray/profiles_cp/CDRPBIO-BBBC036-Bray/`).
 
 ### Genetic Perturbations
 
-- [Singh et al. 2015](https://doi.org/10.1371/journal.pone.0131370) - 3,072 cell painting profiles from 41 genes knocked down with RNA interference (RNAi) in U2OS cells ([Access from GitHub](https://github.com/carpenterlab/2016_bray_natprot/blob/6dcdcf72cd90bb2dbf238b3ecf94691246d8f104/supplementary_files/profiles.csv.zip)).
-- [Rohban et al. 2017](https://doi.org/10.7554/eLife.24060.001) - Cell painting data from 220 overexpressed genes in U2OS cells (Access from public S3 bucket: `s3://cytodata/datasets/TA-ORF-BBBC037-Rohban/profiles_cp/TA-ORF-BBBC037-Rohban/`).
-- Unpublished - Cell painting profiles of 596 overexpressed alleles from 53 genes in A549 cells (Access from public S3 bucket: `s3://cytodata/datasets/LUAD-BBBC043-Caicedo/profiles_cp/LUAD-BBBC043-Caicedo/`)
-- Unpublished - 3,456 cell painting profiles from CRISPR experiments knocking down 59 genes in A549, ES2, and HCC44 cells ([Access from GitHub](https://github.com/broadinstitute/cell-health/tree/master/0.generate-profiles/data/profiles)).
+- [Singh et al. 2015](https://doi.org/10.1371/journal.pone.0131370) - 3,072 Cell Painting profiles from 41 genes knocked down with RNA interference (RNAi) in U2OS cells ([Access from GitHub](https://github.com/carpenterlab/2016_bray_natprot/blob/6dcdcf72cd90bb2dbf238b3ecf94691246d8f104/supplementary_files/profiles.csv.zip)).
+- [Rohban et al. 2017](https://doi.org/10.7554/eLife.24060.001) - Cell Painting data from 220 overexpressed genes in U2OS cells (Access from public S3 bucket: `s3://cytodata/datasets/TA-ORF-BBBC037-Rohban/profiles_cp/TA-ORF-BBBC037-Rohban/`).
+- Unpublished - Cell Painting profiles of 596 overexpressed alleles from 53 genes in A549 cells (Access from public S3 bucket: `s3://cytodata/datasets/LUAD-BBBC043-Caicedo/profiles_cp/LUAD-BBBC043-Caicedo/`)
+- Unpublished - 3,456 Cell Painting profiles from CRISPR experiments knocking down 59 genes in A549, ES2, and HCC44 cells ([Access from GitHub](https://github.com/broadinstitute/cell-health/tree/master/0.generate-profiles/data/profiles)).
 
 ## Software
 
@@ -82,7 +82,7 @@ Publications related to image-based profiling.
 - [Retrospective shading correction based entropy minimization](https://doi.org/10.1046/j.1365-2818.2000.00669.x) - Method for retrospective shading correction based on entropy minimization.
 - [Capturing single-cell heterogeneity via data fusion improves image-based profiling](https://doi.org/10.1038/s41467-019-10154-8) - Adds dispersion and covariances to population averages to capture single-cell heterogeneity.
 - [Minimum redundancy feature selection from microarray gene expression data](https://doi.org/10.1142/S0219720005001004) - Minimum redundancy - maximum relevance feature selection framework.
-- [Learning unsupervised feature representations for single cell microscopy images with paired cell painting](https://doi.org/10.1101/395954) - Selfsupervised method to learn feature representations of single cells in microscopy images without labelled training data.
+- [Learning unsupervised feature representations for single cell microscopy images with paired cell painting](https://doi.org/10.1101/395954) - Self-supervised method to learn feature representations of single cells in microscopy images without labelled training data.
 - [Weakly supervised learning of single-cell feature embeddings](https://doi.org/10.1109/CVPR.2018.00970) - Training CNNs using a weakly supervised approach for feature learning.
 
 ## Contribute
